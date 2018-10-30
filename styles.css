@@ -1,0 +1,30 @@
+.container {
+    background-color: crimson;
+    color:black;
+    font-size: 25px;
+    height: 100%;
+    width: 100%;
+}
+
+.rowBottom {
+    background-image: url("./Thrones.jpg");
+    padding-top: 355px;
+    background-size: cover;
+    
+    
+}
+
+div.row div {
+    border: 1px dashed #000;
+}
+
+
+div.guesses {
+}
+
+div.guesses span {
+    border: 5px dashed #ccc;
+    padding: 5px;
+    font-size: 65px;
+    margin: 0 5px;
+}
