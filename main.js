@@ -27,7 +27,7 @@ $(document).ready(function() {
   }
   console.log(correctGuesses);
 
-  $("h2.wordToGuess").text(wordToGuess);
+  $("h2.wordToGuess").hide(wordToGuess);
   renderCorrectGuesses(correctGuesses);
 
   $("button.submit").on("click", function() {
